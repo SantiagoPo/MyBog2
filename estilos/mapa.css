@@ -1,0 +1,1292 @@
+/* Estilos generales */
+.localidad {
+    display: none;
+}
+
+.localidad.visible {
+    display: block;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.grid-item {
+    width: 200px;
+    margin-left: 80px;
+    
+    
+}
+
+.grid-item img {
+    width: 100%;
+    
+}
+
+
+
+/* Estilos de las localidades */
+
+    .Antonio_Narino{
+        width: 100%;
+        padding-left: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Antonio_Narino figure{
+       position:relative;
+        height: 250px;
+        cursor: pointer;
+        width: 350px;
+        overflow: hidden;
+        border-radius: 6px;
+        box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+    }
+    .Antonio_Narino figure img{
+        width: 100%;
+        height: 100%;
+        transition: all 400ms ease-out;
+        will-change: transform;
+    }
+    .Antonio_Narino figure .capa{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: #f2163e;
+        transition: all 400ms ease-out;
+        opacity: 0;
+        visibility: hidden;
+       text-align: center;
+    }
+    .Antonio_Narino figure:hover > .capa {
+        opacity: 1;
+        visibility: visible;
+    }
+    .Antonio_Narino figure:hover > .capa h3{
+        margin-top: 70px;
+        margin-bottom: 15px;
+    }
+    .Antonio_Narino figure:hover > img{
+        transform: scale(1.3);
+    }
+    .Antonio_Narino figure .capa h3{
+        color: #fff;
+        font-weight: 400;
+        margin-bottom: 120px;
+        transition: all 400ms ease-out;
+         margin-top: 30px;
+    }
+    .Antonio_Narino figure .capa p{
+        color: #fff;
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+    /*barrios unidos*/
+   
+    .Barrios_Unidos{
+        margin-left: 700px;
+        margin-top: -263px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Barrios_Unidos figure{
+       position:relative;
+        height: 250px;
+        cursor: pointer;
+        width: 350px;
+        overflow: hidden;
+        border-radius: 6px;
+        box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+    }
+    .Barrios_Unidos figure img{
+        width: 100%;
+        height: 100%;
+        transition: all 400ms ease-out;
+        will-change: transform;
+    }
+    .Barrios_Unidos figure .capa{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: #f2163e;
+        transition: all 400ms ease-out;
+        opacity: 0;
+        visibility: hidden;
+       text-align: center;
+    }
+    .Barrios_Unidos figure:hover > .capa {
+        opacity: 1;
+        visibility: visible;
+    }
+    .Barrios_Unidos figure:hover > .capa h3{
+        margin-top: 70px;
+        margin-bottom: 15px;
+    }
+    .Barrios_Unidos figure:hover > img{
+        transform: scale(1.3);
+    }
+    .Barrios_Unidos figure .capa h3{
+        color: #fff;
+        font-weight: 400;
+        margin-bottom: 120px;
+        transition: all 400ms ease-out;
+         margin-top: 30px;
+    }
+    .Barrios_Unidos figure .capa p{
+        color: #fff;
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+    /*Bosa*/
+
+    .Bosa{
+        margin-left: 1200px;
+        margin-top: -265px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Bosa figure{
+       position:relative;
+        height: 250px;
+        cursor: pointer;
+        width: 350px;
+        overflow: hidden;
+        border-radius: 6px;
+        box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+    }
+    .Bosa figure img{
+        width: 100%;
+        height: 100%;
+        transition: all 400ms ease-out;
+        will-change: transform;
+    }
+    .Bosa figure .capa{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: #f2163e;
+        transition: all 400ms ease-out;
+        opacity: 0;
+        visibility: hidden;
+       text-align: center;
+    }
+    .Bosa figure:hover > .capa {
+        opacity: 1;
+        visibility: visible;
+    }
+    .Bosa figure:hover > .capa h3{
+        margin-top: 70px;
+        margin-bottom: 15px;
+    }
+    .Bosa figure:hover > img{
+        transform: scale(1.3);
+    }
+    .Bosa figure .capa h3{
+        color: #fff;
+        font-weight: 400;
+        margin-bottom: 120px;
+        transition: all 400ms ease-out;
+         margin-top: 30px;
+    }
+    .Bosa figure .capa p{
+        color: #fff;
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+    /*Chapinero*/
+    
+    .Chapinero{
+        margin-top: 100px;
+        margin-left: 200px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Chapinero figure{
+        position:relative;
+         height: 250px;
+         cursor: pointer;
+         width: 350px;
+         overflow: hidden;
+         border-radius: 6px;
+         box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+     }
+     .Chapinero figure img{
+         width: 100%;
+         height: 100%;
+         transition: all 400ms ease-out;
+         will-change: transform;
+     }
+     .Chapinero figure .capa{
+         position: absolute;
+         top: 0;
+         width: 100%;
+         height: 100%;
+         background: #f2163e;
+         transition: all 400ms ease-out;
+         opacity: 0;
+         visibility: hidden;
+        text-align: center;
+     }
+     .Chapinero figure:hover > .capa {
+         opacity: 1;
+         visibility: visible;
+     }
+     .Chapinero figure:hover > .capa h3{
+         margin-top: 70px;
+         margin-bottom: 15px;
+     }
+     .Chapinero figure:hover > img{
+         transform: scale(1.3);
+     }
+     .Chapinero figure .capa h3{
+         color: #fff;
+         font-weight: 400;
+         margin-bottom: 120px;
+         transition: all 400ms ease-out;
+          margin-top: 30px;
+     }
+     .Chapinero figure .capa p{
+         color: #fff;
+         font-size: 15px;
+         line-height: 1.5;
+         width: 100%;
+         max-width: 220px;
+         margin: auto;
+     }
+
+     /* Ciudad Bolivar */
+
+     .Ciudad_Bolivar{
+        margin-top: -263px;
+        margin-left: 700px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Ciudad_Bolivar figure{
+        position:relative;
+         height: 250px;
+         cursor: pointer;
+         width: 350px;
+         overflow: hidden;
+         border-radius: 6px;
+         box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+     }
+     .Ciudad_Bolivar figure img{
+         width: 100%;
+         height: 100%;
+         transition: all 400ms ease-out;
+         will-change: transform;
+     }
+     .Ciudad_Bolivar figure .capa{
+         position: absolute;
+         top: 0;
+         width: 100%;
+         height: 100%;
+         background: #f2163e;
+         transition: all 400ms ease-out;
+         opacity: 0;
+         visibility: hidden;
+        text-align: center;
+     }
+     .Ciudad_Bolivar figure:hover > .capa {
+         opacity: 1;
+         visibility: visible;
+     }
+     .Ciudad_Bolivar figure:hover > .capa h3{
+         margin-top: 70px;
+         margin-bottom: 15px;
+     }
+     .Ciudad_Bolivar figure:hover > img{
+         transform: scale(1.3);
+     }
+     .Ciudad_Bolivar figure .capa h3{
+         color: #fff;
+         font-weight: 400;
+         margin-bottom: 120px;
+         transition: all 400ms ease-out;
+          margin-top: 30px;
+     }
+     .Ciudad_Bolivar figure .capa p{
+         color: #fff;
+         font-size: 15px;
+         line-height: 1.5;
+         width: 100%;
+         max-width: 220px;
+         margin: auto;
+     }
+
+     /*Engativa*/
+     .Engativa{
+        margin-top: -263px;
+        margin-left: 1200px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Engativa figure{
+        position:relative;
+         height: 250px;
+         cursor: pointer;
+         width: 350px;
+         overflow: hidden;
+         border-radius: 6px;
+         box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+     }
+     .Engativa figure img{
+         width: 100%;
+         height: 100%;
+         transition: all 400ms ease-out;
+         will-change: transform;
+     }
+     .Engativa figure .capa{
+         position: absolute;
+         top: 0;
+         width: 100%;
+         height: 100%;
+         background: #f2163e;
+         transition: all 400ms ease-out;
+         opacity: 0;
+         visibility: hidden;
+        text-align: center;
+     }
+     .Engativa figure:hover > .capa {
+         opacity: 1;
+         visibility: visible;
+     }
+     .Engativa figure:hover > .capa h3{
+         margin-top: 70px;
+         margin-bottom: 15px;
+     }
+     .Engativa figure:hover > img{
+         transform: scale(1.3);
+     }
+     .Engativa figure .capa h3{
+         color: #fff;
+         font-weight: 400;
+         margin-bottom: 120px;
+         transition: all 400ms ease-out;
+          margin-top: 30px;
+     }
+     .Engativa figure .capa p{
+         color: #fff;
+         font-size: 15px;
+         line-height: 1.5;
+         width: 100%;
+         max-width: 220px;
+         margin: auto;
+     }
+
+     /*Fontibon*/
+
+     .Fontibon{
+        margin-top: 100px;
+        margin-left: 200px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Fontibon figure{
+        position:relative;
+         height: 250px;
+         cursor: pointer;
+         width: 350px;
+         overflow: hidden;
+         border-radius: 6px;
+         box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+     }
+     .Fontibon figure img{
+         width: 100%;
+         height: 100%;
+         transition: all 400ms ease-out;
+         will-change: transform;
+     }
+     .Fontibon figure .capa{
+         position: absolute;
+         top: 0;
+         width: 100%;
+         height: 100%;
+         background: #f2163e;
+         transition: all 400ms ease-out;
+         opacity: 0;
+         visibility: hidden;
+        text-align: center;
+     }
+     .Fontibon figure:hover > .capa {
+         opacity: 1;
+         visibility: visible;
+     }
+     .Fontibon figure:hover > .capa h3{
+         margin-top: 70px;
+         margin-bottom: 15px;
+     }
+     .Fontibon figure:hover > img{
+         transform: scale(1.3);
+     }
+     .Fontibon figure .capa h3{
+         color: #fff;
+         font-weight: 400;
+         margin-bottom: 120px;
+         transition: all 400ms ease-out;
+          margin-top: 30px;
+     }
+     .Fontibon figure .capa p{
+         color: #fff;
+         font-size: 15px;
+         line-height: 1.5;
+         width: 100%;
+         max-width: 220px;
+         margin: auto;
+     }
+
+
+     /*Kennedy*/
+     .Kennedy{
+        margin-top: -263px;
+        margin-left: 700px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Kennedy figure{
+        position:relative;
+         height: 250px;
+         cursor: pointer;
+         width: 350px;
+         overflow: hidden;
+         border-radius: 6px;
+         box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+     }
+     .Kennedy figure img{
+         width: 100%;
+         height: 100%;
+         transition: all 400ms ease-out;
+         will-change: transform;
+     }
+     .Kennedy figure .capa{
+         position: absolute;
+         top: 0;
+         width: 100%;
+         height: 100%;
+         background: #f2163e;
+         transition: all 400ms ease-out;
+         opacity: 0;
+         visibility: hidden;
+        text-align: center;
+     }
+     .Kennedy figure:hover > .capa {
+         opacity: 1;
+         visibility: visible;
+     }
+     .Kennedy figure:hover > .capa h3{
+         margin-top: 70px;
+         margin-bottom: 15px;
+     }
+     .Kennedy figure:hover > img{
+         transform: scale(1.3);
+     }
+     .Kennedy figure .capa h3{
+         color: #fff;
+         font-weight: 400;
+         margin-bottom: 120px;
+         transition: all 400ms ease-out;
+          margin-top: 30px;
+     }
+     .Kennedy figure .capa p{
+         color: #fff;
+         font-size: 15px;
+         line-height: 1.5;
+         width: 100%;
+         max-width: 220px;
+         margin: auto;
+     }
+
+     /*Candelaria*/
+
+     .Candelaria{
+        margin-top: -263px;
+        margin-left: 1200px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Candelaria figure{
+        position:relative;
+         height: 250px;
+         cursor: pointer;
+         width: 350px;
+         overflow: hidden;
+         border-radius: 6px;
+         box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+     }
+     .Candelaria figure img{
+         width: 100%;
+         height: 100%;
+         transition: all 400ms ease-out;
+         will-change: transform;
+     }
+     .Candelaria figure .capa{
+         position: absolute;
+         top: 0;
+         width: 100%;
+         height: 100%;
+         background: #f2163e;
+         transition: all 400ms ease-out;
+         opacity: 0;
+         visibility: hidden;
+        text-align: center;
+     }
+     .Candelaria figure:hover > .capa {
+         opacity: 1;
+         visibility: visible;
+     }
+     .Candelaria figure:hover > .capa h3{
+         margin-top: 70px;
+         margin-bottom: 15px;
+     }
+     .Candelaria figure:hover > img{
+         transform: scale(1.3);
+     }
+     .Candelaria figure .capa h3{
+         color: #fff;
+         font-weight: 400;
+         margin-bottom: 120px;
+         transition: all 400ms ease-out;
+          margin-top: 30px;
+     }
+     .Candelaria figure .capa p{
+         color: #fff;
+         font-size: 15px;
+         line-height: 1.5;
+         width: 100%;
+         max-width: 220px;
+         margin: auto;
+     }
+
+
+     /*Los Martires*/
+
+     .Los_Martires{
+        margin-top: 100px;
+        margin-left: 200px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Los_Martires figure{
+        position:relative;
+         height: 250px;
+         cursor: pointer;
+         width: 350px;
+         overflow: hidden;
+         border-radius: 6px;
+         box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+     }
+     .Los_Martires figure img{
+         width: 100%;
+         height: 100%;
+         transition: all 400ms ease-out;
+         will-change: transform;
+     }
+     .Los_Martires figure .capa{
+         position: absolute;
+         top: 0;
+         width: 100%;
+         height: 100%;
+         background: #f2163e;
+         transition: all 400ms ease-out;
+         opacity: 0;
+         visibility: hidden;
+        text-align: center;
+     }
+     .Los_Martires figure:hover > .capa {
+         opacity: 1;
+         visibility: visible;
+     }
+     .Los_Martires figure:hover > .capa h3{
+         margin-top: 70px;
+         margin-bottom: 15px;
+     }
+     .Los_Martires figure:hover > img{
+         transform: scale(1.3);
+     }
+     .Los_Martires figure .capa h3{
+         color: #fff;
+         font-weight: 400;
+         margin-bottom: 120px;
+         transition: all 400ms ease-out;
+          margin-top: 30px;
+     }
+     .Los_Martires figure .capa p{
+         color: #fff;
+         font-size: 15px;
+         line-height: 1.5;
+         width: 100%;
+         max-width: 220px;
+         margin: auto;
+     }
+
+    /*Puente Aranda*/
+
+    .Puente_Aranda{
+        margin-top: -263px;
+        margin-left: 700px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Puente_Aranda figure{
+        position:relative;
+         height: 250px;
+         cursor: pointer;
+         width: 350px;
+         overflow: hidden;
+         border-radius: 6px;
+         box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+     }
+     .Puente_Aranda figure img{
+         width: 100%;
+         height: 100%;
+         transition: all 400ms ease-out;
+         will-change: transform;
+     }
+     .Puente_Aranda figure .capa{
+         position: absolute;
+         top: 0;
+         width: 100%;
+         height: 100%;
+         background: #f2163e;
+         transition: all 400ms ease-out;
+         opacity: 0;
+         visibility: hidden;
+        text-align: center;
+     }
+     .Puente_Aranda figure:hover > .capa {
+         opacity: 1;
+         visibility: visible;
+     }
+     .Puente_Aranda figure:hover > .capa h3{
+         margin-top: 70px;
+         margin-bottom: 15px;
+     }
+     .Puente_Aranda figure:hover > img{
+         transform: scale(1.3);
+     }
+     .Puente_Aranda figure .capa h3{
+         color: #fff;
+         font-weight: 400;
+         margin-bottom: 120px;
+         transition: all 400ms ease-out;
+          margin-top: 30px;
+     }
+     .Puente_Aranda figure .capa p{
+         color: #fff;
+         font-size: 15px;
+         line-height: 1.5;
+         width: 100%;
+         max-width: 220px;
+         margin: auto;
+     }
+
+     /*Rafael Uribe Uribe*/
+
+     .Rafael_Uribe_Uribe{
+        margin-top: -263px;
+        margin-left: 1200px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Rafael_Uribe_Uribe figure{
+        position:relative;
+         height: 250px;
+         cursor: pointer;
+         width: 350px;
+         overflow: hidden;
+         border-radius: 6px;
+         box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+     }
+     .Rafael_Uribe_Uribe figure img{
+         width: 100%;
+         height: 100%;
+         transition: all 400ms ease-out;
+         will-change: transform;
+     }
+     .Rafael_Uribe_Uribe figure .capa{
+         position: absolute;
+         top: 0;
+         width: 100%;
+         height: 100%;
+         background: #f2163e;
+         transition: all 400ms ease-out;
+         opacity: 0;
+         visibility: hidden;
+        text-align: center;
+     }
+     .Rafael_Uribe_Uribe figure:hover > .capa {
+         opacity: 1;
+         visibility: visible;
+     }
+     .Rafael_Uribe_Uribe figure:hover > .capa h3{
+         margin-top: 70px;
+         margin-bottom: 15px;
+     }
+     .Rafael_Uribe_Uribe figure:hover > img{
+         transform: scale(1.3);
+     }
+     .Rafael_Uribe_Uribe figure .capa h3{
+         color: #fff;
+         font-weight: 400;
+         margin-bottom: 120px;
+         transition: all 400ms ease-out;
+          margin-top: 30px;
+     }
+     .Rafael_Uribe_Uribe figure .capa p{
+         color: #fff;
+         font-size: 15px;
+         line-height: 1.5;
+         width: 100%;
+         max-width: 220px;
+         margin: auto;
+     }
+
+     /*San_Cristobal*/
+
+     .San_Cristobal{
+        margin-top: 100px;
+        margin-left: 200px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .San_Cristobal figure{
+        position:relative;
+         height: 250px;
+         cursor: pointer;
+         width: 350px;
+         overflow: hidden;
+         border-radius: 6px;
+         box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+     }
+     .San_Cristobal figure img{
+         width: 100%;
+         height: 100%;
+         transition: all 400ms ease-out;
+         will-change: transform;
+     }
+     .San_Cristobal figure .capa{
+         position: absolute;
+         top: 0;
+         width: 100%;
+         height: 100%;
+         background: #f2163e;
+         transition: all 400ms ease-out;
+         opacity: 0;
+         visibility: hidden;
+        text-align: center;
+     }
+     .San_Cristobal figure:hover > .capa {
+         opacity: 1;
+         visibility: visible;
+     }
+     .San_Cristobal figure:hover > .capa h3{
+         margin-top: 70px;
+         margin-bottom: 15px;
+     }
+     .San_Cristobal figure:hover > img{
+         transform: scale(1.3);
+     }
+     .San_Cristobal figure .capa h3{
+         color: #fff;
+         font-weight: 400;
+         margin-bottom: 120px;
+         transition: all 400ms ease-out;
+          margin-top: 30px;
+     }
+     .San_Cristobal figure .capa p{
+         color: #fff;
+         font-size: 15px;
+         line-height: 1.5;
+         width: 100%;
+         max-width: 220px;
+         margin: auto;
+     }
+
+
+     /* Santafe */
+
+     .Santafe{
+        margin-top: -263px;
+        margin-left: 700px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Santafe figure{
+        position:relative;
+         height: 250px;
+         cursor: pointer;
+         width: 350px;
+         overflow: hidden;
+         border-radius: 6px;
+         box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+     }
+     .Santafe figure img{
+         width: 100%;
+         height: 100%;
+         transition: all 400ms ease-out;
+         will-change: transform;
+     }
+     .Santafe figure .capa{
+         position: absolute;
+         top: 0;
+         width: 100%;
+         height: 100%;
+         background: #f2163e;
+         transition: all 400ms ease-out;
+         opacity: 0;
+         visibility: hidden;
+        text-align: center;
+     }
+     .Santafe figure:hover > .capa {
+         opacity: 1;
+         visibility: visible;
+     }
+     .Santafe figure:hover > .capa h3{
+         margin-top: 70px;
+         margin-bottom: 15px;
+     }
+     .Santafe figure:hover > img{
+         transform: scale(1.3);
+     }
+     .Santafe figure .capa h3{
+         color: #fff;
+         font-weight: 400;
+         margin-bottom: 120px;
+         transition: all 400ms ease-out;
+          margin-top: 30px;
+     }
+     .Santafe figure .capa p{
+         color: #fff;
+         font-size: 15px;
+         line-height: 1.5;
+         width: 100%;
+         max-width: 220px;
+         margin: auto;
+     }
+
+     /*Suba*/
+     .Suba{
+        margin-top: -263px;
+        margin-left: 1200px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Suba figure{
+        position:relative;
+         height: 250px;
+         cursor: pointer;
+         width: 350px;
+         overflow: hidden;
+         border-radius: 6px;
+         box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+     }
+     .Suba figure img{
+         width: 100%;
+         height: 100%;
+         transition: all 400ms ease-out;
+         will-change: transform;
+     }
+     .Suba figure .capa{
+         position: absolute;
+         top: 0;
+         width: 100%;
+         height: 100%;
+         background: #f2163e;
+         transition: all 400ms ease-out;
+         opacity: 0;
+         visibility: hidden;
+        text-align: center;
+     }
+     .Suba figure:hover > .capa {
+         opacity: 1;
+         visibility: visible;
+     }
+     .Suba figure:hover > .capa h3{
+         margin-top: 70px;
+         margin-bottom: 15px;
+     }
+     .Suba figure:hover > img{
+         transform: scale(1.3);
+     }
+     .Suba figure .capa h3{
+         color: #fff;
+         font-weight: 400;
+         margin-bottom: 120px;
+         transition: all 400ms ease-out;
+          margin-top: 30px;
+     }
+     .Suba figure .capa p{
+         color: #fff;
+         font-size: 15px;
+         line-height: 1.5;
+         width: 100%;
+         max-width: 220px;
+         margin: auto;
+     }
+
+     /*Sumapaz*/
+     .Sumapaz{
+        margin-top: 100px;
+        margin-left: 200px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Sumapaz figure{
+        position:relative;
+         height: 250px;
+         cursor: pointer;
+         width: 350px;
+         overflow: hidden;
+         border-radius: 6px;
+         box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+     }
+     .Sumapaz figure img{
+         width: 100%;
+         height: 100%;
+         transition: all 400ms ease-out;
+         will-change: transform;
+     }
+     .Sumapaz figure .capa{
+         position: absolute;
+         top: 0;
+         width: 100%;
+         height: 100%;
+         background: #f2163e;
+         transition: all 400ms ease-out;
+         opacity: 0;
+         visibility: hidden;
+        text-align: center;
+     }
+     .Sumapaz figure:hover > .capa {
+         opacity: 1;
+         visibility: visible;
+     }
+     .Sumapaz figure:hover > .capa h3{
+         margin-top: 70px;
+         margin-bottom: 15px;
+     }
+     .Sumapaz figure:hover > img{
+         transform: scale(1.3);
+     }
+     .Sumapaz figure .capa h3{
+         color: #fff;
+         font-weight: 400;
+         margin-bottom: 120px;
+         transition: all 400ms ease-out;
+          margin-top: 30px;
+     }
+     .Sumapaz figure .capa p{
+         color: #fff;
+         font-size: 15px;
+         line-height: 1.5;
+         width: 100%;
+         max-width: 220px;
+         margin: auto;
+     }
+
+     /*Teusaquillo*/
+
+     .Teusaquillo{
+        margin-top: -263px;
+        margin-left: 700px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Teusaquillo figure{
+        position:relative;
+         height: 250px;
+         cursor: pointer;
+         width: 350px;
+         overflow: hidden;
+         border-radius: 6px;
+         box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+     }
+     .Teusaquillo figure img{
+         width: 100%;
+         height: 100%;
+         transition: all 400ms ease-out;
+         will-change: transform;
+     }
+     .Teusaquillo figure .capa{
+         position: absolute;
+         top: 0;
+         width: 100%;
+         height: 100%;
+         background: #f2163e;
+         transition: all 400ms ease-out;
+         opacity: 0;
+         visibility: hidden;
+        text-align: center;
+     }
+     .Teusaquillo figure:hover > .capa {
+         opacity: 1;
+         visibility: visible;
+     }
+     .Teusaquillo figure:hover > .capa h3{
+         margin-top: 70px;
+         margin-bottom: 15px;
+     }
+     .Teusaquillo figure:hover > img{
+         transform: scale(1.3);
+     }
+     .Teusaquillo figure .capa h3{
+         color: #fff;
+         font-weight: 400;
+         margin-bottom: 120px;
+         transition: all 400ms ease-out;
+          margin-top: 30px;
+     }
+     .Teusaquillo figure .capa p{
+         color: #fff;
+         font-size: 15px;
+         line-height: 1.5;
+         width: 100%;
+         max-width: 220px;
+         margin: auto;
+     }
+
+     /*Tunjuelito*/
+
+     .Tunjuelito{
+        margin-top: -263px;
+        margin-left: 1200px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Tunjuelito figure{
+        position:relative;
+         height: 250px;
+         cursor: pointer;
+         width: 350px;
+         overflow: hidden;
+         border-radius: 6px;
+         box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+     }
+     .Tunjuelito figure img{
+         width: 100%;
+         height: 100%;
+         transition: all 400ms ease-out;
+         will-change: transform;
+     }
+     .Tunjuelito figure .capa{
+         position: absolute;
+         top: 0;
+         width: 100%;
+         height: 100%;
+         background: #f2163e;
+         transition: all 400ms ease-out;
+         opacity: 0;
+         visibility: hidden;
+        text-align: center;
+     }
+     .Tunjuelito figure:hover > .capa {
+         opacity: 1;
+         visibility: visible;
+     }
+     .Tunjuelito figure:hover > .capa h3{
+         margin-top: 70px;
+         margin-bottom: 15px;
+     }
+     .Tunjuelitofigure:hover > img{
+         transform: scale(1.3);
+     }
+     .Tunjuelito figure .capa h3{
+         color: #fff;
+         font-weight: 400;
+         margin-bottom: 120px;
+         transition: all 400ms ease-out;
+          margin-top: 30px;
+     }
+     .Tunjuelito figure .capa p{
+         color: #fff;
+         font-size: 15px;
+         line-height: 1.5;
+         width: 100%;
+         max-width: 220px;
+         margin: auto;
+     }
+     /*Usaquen*/
+
+     .Usaquen{
+        margin-top: 100px;
+        margin-left: 200px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Usaquen figure{
+        position:relative;
+         height: 250px;
+         cursor: pointer;
+         width: 350px;
+         overflow: hidden;
+         border-radius: 6px;
+         box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+     }
+     .Usaquen figure img{
+         width: 100%;
+         height: 100%;
+         transition: all 400ms ease-out;
+         will-change: transform;
+     }
+     .Usaquen figure .capa{
+         position: absolute;
+         top: 0;
+         width: 100%;
+         height: 100%;
+         background: #f2163e;
+         transition: all 400ms ease-out;
+         opacity: 0;
+         visibility: hidden;
+        text-align: center;
+     }
+     .Usaquen figure:hover > .capa {
+         opacity: 1;
+         visibility: visible;
+     }
+     .Usaquen figure:hover > .capa h3{
+         margin-top: 70px;
+         margin-bottom: 15px;
+     }
+     .Usaquen figure:hover > img{
+         transform: scale(1.3);
+     }
+     .Usaquen figure .capa h3{
+         color: #fff;
+         font-weight: 400;
+         margin-bottom: 120px;
+         transition: all 400ms ease-out;
+          margin-top: 30px;
+     }
+     .Usaquen figure .capa p{
+         color: #fff;
+         font-size: 15px;
+         line-height: 1.5;
+         width: 100%;
+         max-width: 220px;
+         margin: auto;
+     }
+
+     /*Usme*/
+
+     .Usme{
+        margin-top: -263px;
+        margin-left: 700px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Usme figure{
+        position:relative;
+         height: 250px;
+         cursor: pointer;
+         width: 350px;
+         overflow: hidden;
+         border-radius: 6px;
+         box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+     }
+     .Usme figure img{
+         width: 100%;
+         height: 100%;
+         transition: all 400ms ease-out;
+         will-change: transform;
+     }
+     .Usme figure .capa{
+         position: absolute;
+         top: 0;
+         width: 100%;
+         height: 100%;
+         background: #f2163e;
+         transition: all 400ms ease-out;
+         opacity: 0;
+         visibility: hidden;
+        text-align: center;
+     }
+     .Usme figure:hover > .capa {
+         opacity: 1;
+         visibility: visible;
+     }
+     .Usme figure:hover > .capa h3{
+         margin-top: 70px;
+         margin-bottom: 15px;
+     }
+     .Usme figure:hover > img{
+         transform: scale(1.3);
+     }
+     .Usme figure .capa h3{
+         color: #fff;
+         font-weight: 400;
+         margin-bottom: 120px;
+         transition: all 400ms ease-out;
+          margin-top: 30px;
+     }
+     .Usme figure .capa p{
+         color: #fff;
+         font-size: 15px;
+         line-height: 1.5;
+         width: 100%;
+         max-width: 220px;
+         margin: auto;
+     }

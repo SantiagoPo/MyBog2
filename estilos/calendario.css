@@ -1,0 +1,204 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.calendar-container {
+    flex-basis: 60%;
+}
+
+.content-container {
+    flex-basis: 35%;
+}
+
+@media (max-width: 767px) {
+    .container {
+        flex-direction: column;
+    }
+    .calendar-container,
+    .content-container {
+        flex-basis: 100%;
+    }
+}
+
+/* Estilos para el calendario */
+
+.calendar__info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calendar__prev,
+.calendar__next {
+    color: #f00c0c;
+    margin: 10px 100px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.calendar__month,
+.calendar__year {
+    color: #ff0000;
+    margin: 10px 10px;
+    font-size: 30px;
+}
+
+.calendar__week {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.calendar__date {
+    flex-basis: 14.28%;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Estilos generales del calendario */
+.calendar {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 50px;
+  }
+  
+  .calendar__dates {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+  }
+  
+  .calendar__day {
+    flex: 1;
+    text-align: center;
+    display: block;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #000000;
+  }
+
+  .calendar__info{
+    flex: 1;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  .calendar__date {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  .calendar__last-days {
+    color: gray;
+  }
+  
+  .calendar__today {
+    font-weight: bold;
+    background-color: rgba(255, 0, 0, 0.384);
+  }
+  
+  .calendar__empty {
+    visibility: hidden;
+  }
+  
+  .calendar__date--selected {
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    border: 2px solid black;
+  }
+  /* Estilos para dispositivos móviles */
+
+  @media (max-width: 750px) {
+    .calendar__dates {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+    }
+  
+    .calendar__date {
+      flex-basis: 14.28%; /* Cada día ocupa un ancho de 14.28% para mantener 7 columnas */
+      max-width: 14.28%;
+    }
+    .calendar__weekday {
+        display: none; /* Oculta los días de la semana en dispositivos móviles */
+      }
+      
+      .calendar__date:before {
+        content: attr(data-day-mobile); /* Utiliza el atributo "data-day-mobile" como contenido en lugar del texto original */
+      }
+    }
+
+.actividades-del-dia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.comercial {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.actividades-del-dia img {
+    width: 70%;
+    max-width: 300px;
+}
+
+.actividades-del-dia span {
+    font-weight: bold;
+}
+
+.actividades-del-dia hr {
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.actividadcen {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 767px) {
+    .calendar__info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .calendar__month,
+    .calendar__year {
+        margin-bottom: 10px;
+    }
+
+    .calendar__dates .calendar__date {
+        flex-basis: 30%;
+    }
+
+    .actividades-del-dia img {
+        width: 100%;
+        max-width: 300px;
+    }
+}
